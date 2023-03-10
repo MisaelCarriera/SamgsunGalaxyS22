@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/samsung.css') }}">
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+  <header>
+</header>
+    <main>
+      <div class="phone" id="phone">
+        <img
+          class="galaxy"
+          src="https://i0.wp.com/www.myeverydaytech.com/wp-content/uploads/2022/02/Galaxy-S22-Series-V3_D001-PC-Header-Banner-1440x720-1.jpg"
+          alt=""
+        
+      </div>
+      <br /><br /><br /><br /><br />
+      <div>
+        <h1>Samsung Galaxy S22 Specifications</h1>
+        <hr />
+        <br />
+        <table class="specs" id="specs">
+          <tr>
+            <td>Network</td>
+            <td>GSM / CDMA / HSPA / EVDO / LTE / 5G</td>
+          </tr>
+          <tr>
+            <td>Body</td>
+            <td>
+              146 x 70.6 x 7.6 mm (5.75 x 2.78 x 0.30 in) <br /><br />
+              Weight 167 g / 168 g (mmWave) (5.89 oz)
+            </td>
+          </tr>
+          <tr>
+            <td>Display</td>
+            <td>
+              Type Dynamic AMOLED 2X, 120Hz, HDR10+, 1300 nits (peak)
+              <br /><br />
+              Size 6.1 inches, 90.1 cm2 (~87.4% screen-to-body ratio)
+              <br /><br />
+              Resolution 1080 x 2340 pixels, 19.5:9 ratio (~425 ppi density)
+              <br /><br />
+              Protection Corning Gorilla Glass Victus+ Always-on display
+            </td>
+          </tr>
+          <tr>
+            <td>Platform</td>
+            <td>
+              OS Android 12, One UI 4.1 <br /><br />
+              Chipset Exynos 2200 (4 nm) - Europe Qualcomm SM8450 Snapdragon 8
+              Gen 1 (4 nm) - ROW
+              <br /><br />
+              CPU Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 &
+              4x1.8 GHz Cortex-A510) - Europe Octa-core (1x3.00 GHz Cortex-X2 &
+              3x2.40 GHz Cortex-A710 & 4x1.70 GHz Cortex-A510) - ROW
+              <br /><br />
+              GPU Xclipse 920 - Europe Adreno 730 - ROW
+            </td>
+          </tr>
+          <tr>
+            <td>Memory</td>
+            <td>
+              Card slot No <br /><br />
+              Internal 128GB 8GB RAM, 256GB 8GB RAM UFS 3.1
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br /><br /><br /><br />
+      <h1>Pricing</h1>
+      <hr />
+      <br />
+      <div>
+        <table id="specs">
+          <tr>
+            <td>128GB 8GB RAM</td>
+            <td>$ 519.99 Ebay</td>
+            <td>$529.90 Amazon</td>
+          </tr>
+          <tr>
+            <td>256GB 8GB RAM</td>
+            <td>$ 579.99 Amazon</td>
+            <td>$ 739.95 Ebay</td>
+          </tr>
+        </table>
+      </div>
+      <br /><br /><br /><br />
+      <h1>Review Video</h1>
+      <hr />
+      <br />
+      <iframe
+        class="Utube"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MNFB2kMeeSU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <br /><br />
+      <footer>Misael.C Samsung Galaxy S22 overview 2022</footer>
+    </main>
+  </body>
+</html>
+{% endblock %}
